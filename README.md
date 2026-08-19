@@ -45,3 +45,6 @@ python ask.py "when does my passport expire?"
 - Forgot to reingest: edited a doc but answers are stale? Rerun `ingest.py`.
 - Expecting magic from the hashing fallback: it matches words, not meaning. Install `sentence-transformers` before judging retrieval quality.
 - Sending whole documents to Claude: don't. The point of RAG is you only send the few chunks that matter, which keeps it cheap and private.
+
+
+Thanks to [Qendresa](https://github.com/kju4q) for guides on building AI tools
